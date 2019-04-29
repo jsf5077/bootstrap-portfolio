@@ -3,8 +3,10 @@
 <head>
     <!--Setting character encoding-->
     <meta charset="UTF-8">
+    <!-- Linking for media queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Linking the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!--Linking css file-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!--Page Title-->
@@ -16,15 +18,17 @@
     <header>
         <div>
             <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center p-0">
-                <div class="col-9 p-0">
-                    <a class="navbar-brand p-3 float-left main_header" style="color: #ffffff;">Jeff Froehlich</a>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <ul class="nav navbar-nav">
-                            <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
-                            <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
-                            <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
-                        </ul>
-                    </div> 
+                <div class="container-fluid col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 p-0">
+                    <div class=" col-lg-8 col-md-6 col-sm-2 col-xs-2 p-0">
+                    <a class="navbar-brand py-3 px-3 float-left float-sm-none main_header" style="color: #ffffff;">Jeff Froehlich</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 col-xs-10 p-0">
+                    <ul class="nav navbar-nav float-sm-right float-md-right float-lg-right float-xs-none">
+                        <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                        <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
+                    </ul>
+                    </div>
                 </div>          
             </nav>
         </div>
@@ -32,14 +36,14 @@
 
     <br>
 <!-- main content -->
-    <section class="container card col-9">
+    <section class="container card col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
         <div class="row">
-            <h2 class="col-12 mt-2">About Me</h2>
+            <div class="col-12 mt-2 navbar-brand about_me">About Me</div>
         </div>
         <hr style="border-color: #cccccc"/>
         <div class="row">
             <div class="col-12">
-                <img src="assets/images/icon.jpg" alt="Jeff Froehlich" class="float-left pl-0 pb-0 pt-2" style="padding: 2%;">
+                <img src="assets/images/icon.jpg" alt="Jeff Froehlich" class="float-left img-fluid p-2 pt-2">
 
                 <p>
                     Now this is the story all about how my life got flip-turned upside down. And I'd like to take a minute – just sit right there – I'll tell you how I became a graphic artist of a town called Willow Grove (yeah...that's how it goes, right?).

@@ -22,7 +22,8 @@ html {
 /* element that contains my name*/
 .main_header {
     background-color: #4aaaa5;
-    text-align: center;   
+    text-align: center;  
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif; 
 }
 /* headline 1 styles*/
 /* h1 {
@@ -80,15 +81,15 @@ html {
 /* Body styles /////////////////////////////////////////////////////// */
 
 /* Main Body*/
-/* p {
+p {
     text-indent: 2.0em;
     line-height: 28px;
-} */
+}
 body {
     /* position: relative;
     min-height: 100%;
-    color:  #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+    color:  #777777;*/
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url("../images/background.png");
     background-color: #eeeee7;
     /* padding: 0;
@@ -97,14 +98,10 @@ body {
 }
 
 /*Style for headline 2*/
-/* h2 {
+.about_me {
     color: #4aaaa5;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
-    font-size: 20px;
-} */
+}
 
 /* Style for the Body Headline*/
 /* .body_title {
@@ -236,4 +233,13 @@ footer {
     width: 9%;
     image-rendering: crisp-edges;
 } */
+  @media (min-width: @screen-xs-min) { ... }
+
 /* @media (min-width: 120px) */
+  @media (min-width: @screen-sm-min) { ... }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: @screen-md-min) { ... }
+  
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: @screen-lg-min) { ... }
