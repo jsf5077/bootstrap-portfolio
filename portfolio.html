@@ -4,71 +4,86 @@
 <head>
     <!--Setting character encoding-->
     <meta charset="UTF-8">
+    <!-- Linking for media queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Linking the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Linking css file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--Page Title-->
     <title>Portfolio</title>
-    <!--Linking reset css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- Linking css file
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">   -->
-    <!-- Linking the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!--Linking css file-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 
 <body>
-<!-- header with nav tabs -->
-    <header>
-        <div>
-            <nav class="navbar navbar-expand-xs navbar-light bg-light justify-content-center">
-                <div style="width: 960px;">
-                    <a class="navbar-brand p-3 float-left main_header" style="color: #ffffff;">Jeff Froehlich</a>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <ul class="nav navbar-nav">
+    <!-- header with nav tabs -->
+    <header class="mb-2">
+        <!-- header with nav tabs for screen sizes sm - xl -->
+        <div class="d-none d-sm-block">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center p-0">
+                <div class="container-fluid col-xs-12 col-sm-9 p-0">
+                    <div class="col-xs-2 col-sm-2 col-md-6 col-lg-8 p-0">
+                        <a class="navbar-brand py-3 px-3 float-left m-0 main_header" style="color: #ffffff;">Jeff Froehlich</a>
+                    </div>
+                    <div class="col-xs-10 col-md-6 col-lg-4 p-0">
+                        <ul class="nav navbar-nav float-sm-right">
                             <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
                             <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
                             <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>          
             </nav>
         </div>
-    </header>        
-    <br>
+        <div class="d-block d-sm-none">
+            <nav class="jumbotron-fluid mb-0 main_header">
+                <h1 class="mb-0 p-2" style="color: #ffffff;">Jeff Froehlich</h1>         
+            </nav>
+        </div>
+        <!-- header with nav tabs for screen sizes sm - xl -->
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center p-0">
+            <div class="d-block d-sm-none col-12">
+                <ul class="nav mb-2">
+                    <li class="nav-item col-4 px-8"><a class="nav-link active current" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>           
+    </header>
 <!-- main content -->
     <section>
         <h2>Portfolio</h2>
     
         <div>
             <div>  
-                <a href="https://www.facebook.com/BrotherlyLoveUnited/" target="_blank"><img src="assets/images/port(1).JPG" alt="Iron_Man"></a>  
+                <a href="https://www.facebook.com/BrotherlyLoveUnited/" target="_blank"><img src="assets/images/port(1).JPG" alt="Iron_Man" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>  
                 <h3>BLU Facebook</h3>
             </div>
             
             <div>
-                <a href="https://wizardworld.com/guests/brotherly-love-united" target="_blank"><img src="assets/images/port(2).JPG" alt="Spider_Man"></a>
+                <a href="https://wizardworld.com/guests/brotherly-love-united" target="_blank"><img src="assets/images/port(2).JPG" alt="Spider_Man" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>
                 <h3>Wizard World</h3> 
             </div>
             
             <div>
-                <a href="https://www.instagram.com/brotherly_love_united" target="_blank"><img src="assets/images/port(3).JPG" alt="Storm_Trooper"></a>
+                <a href="https://www.instagram.com/brotherly_love_united" target="_blank"><img src="assets/images/port(3).JPG" alt="Storm_Trooper" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>
                 <h3>Instagram</h3>
             </div>
 
             <div>
-                <a href="https://www.etsy.com/shop/BLUdesignsStudio" target="_blank"><img src="assets/images/port(4).JPG" alt="Wonder_Woman"></a>
+                <a href="https://www.etsy.com/shop/BLUdesignsStudio" target="_blank"><img src="assets/images/port(4).JPG" alt="Wonder_Woman" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>
                 <h3>My Etsy Shop</h3>
             </div>     
             
             <div>
-                <a href="https://twitter.com/Jsf5077" target="_blank"><img src="assets/images/port(5).JPG" alt="Wolverine"></a>
+                <a href="https://twitter.com/Jsf5077" target="_blank"><img src="assets/images/port(5).JPG" alt="Wolverine" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>
                 <h3>Twitter</h3> 
             </div>
 
             <div>
-                <a href="https://www.linkedin.com/in/jeff-froehlich-b5707998/" target="_blank"><img src="assets/images/port(6).JPG" alt="Hulk"></a>
+                <a href="https://www.linkedin.com/in/jeff-froehlich-b5707998/" target="_blank"><img src="assets/images/port(6).JPG" alt="Hulk" class="mx-auto d-block float-sm-left img-fluid p-2 pt-2"></a>
                 <h3>LinkedIn</h3>
             </div>     
         </div>

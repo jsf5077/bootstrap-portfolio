@@ -4,42 +4,53 @@
 <head>
     <!--Setting character encoding-->
     <meta charset="UTF-8">
+    <!-- Linking for media queries-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Linking the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Linking css file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--Page Title-->
     <title>Portfolio</title>
-    <!--Linking reset css file-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- Linking css file
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">    -->
-    <!-- Linking the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!--Linking css file-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 
 <body>
-<!-- header with nav tabs -->
-    <header>
-        <header>
-                <div>
-                    <nav class="navbar navbar-expand-sm-md-lg navbar-light bg-light justify-content-center">
-                        <div style="width: 960px;">
-                            <a class="navbar-brand p-3 float-left main_header" style="color: #ffffff;">Jeff Froehlich</a>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                                <ul class="nav navbar-nav">
-                                    <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
-                                    <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
-                                    <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
-                                </ul>
-                            </div> 
-                        </div>          
-                    </nav>
-                </div>
-            </header>      
-    </header>
-
-    <br>
+    <header class="mb-2">
+        <!-- header with nav tabs for screen sizes sm - xl -->
+        <div class="d-none d-sm-block">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center p-0">
+                <div class="container-fluid col-xs-12 col-sm-9 p-0">
+                    <div class="col-xs-2 col-sm-2 col-md-6 col-lg-8 p-0">
+                        <a class="navbar-brand py-3 px-3 float-left m-0 main_header" style="color: #ffffff;">Jeff Froehlich</a>
+                    </div>
+                    <div class="col-xs-10 col-md-6 col-lg-4 p-0">
+                        <ul class="nav navbar-nav float-sm-right">
+                            <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                            <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>          
+            </nav>
+        </div>
+        <div class="d-block d-sm-none">
+            <nav class="jumbotron-fluid mb-0 main_header">
+                <h1 class="mb-0 p-2" style="color: #ffffff;">Jeff Froehlich</h1>         
+            </nav>
+        </div>
+        <!-- header with nav tabs for screen sizes sm - xl -->
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center p-0">
+            <div class="d-block d-sm-none col-12">
+                <ul class="nav mb-2">
+                    <li class="nav-item col-4 px-8"><a class="nav-link active current" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>           
+    </header>   
 <!-- main content -->
     <section>
 
