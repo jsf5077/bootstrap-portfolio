@@ -5,12 +5,21 @@ html {
 /* Header styles /////////////////////////////////////////////////////// */
 
 /* Main Header*/
-/* Header {
-    background: #ffffff;
+Header {
+    /* background: #ffffff; */
+    background-color: #F8F9Fa;
     border-bottom: solid #cccccc;
     border-bottom-width: 2px;
-    overflow: auto;  
-} */
+    /* overflow: auto;   */
+}
+
+a {
+    color: rgba(0,0,0,.5);
+}
+
+.current {
+    color: rgba(0,0,0,.9);
+}
 
 /* container for elements in the header
 .head_container {
@@ -18,6 +27,9 @@ html {
     margin: 0 auto;
 } */
 
+.navbar-nav {
+    flex-direction: row;
+}
 
 /* element that contains my name*/
 .main_header {
@@ -233,13 +245,13 @@ footer {
     width: 9%;
     image-rendering: crisp-edges;
 } */
-  @media (min-width: @screen-xs-min) { ... }
+  /* @media (min-width: @screen-xs-min) { ... } */
 
 /* @media (min-width: 120px) */
-  @media (min-width: @screen-sm-min) { ... }
+  /* @media (min-width: @screen-sm-min) { ... } */
 
   /* Medium devices (desktops, 992px and up) */
-  @media (min-width: @screen-md-min) { ... }
+  /* @media (min-width: @screen-md-min) { ... } */
   
   /* Large devices (large desktops, 1200px and up) */
-  @media (min-width: @screen-lg-min) { ... }
+  /* @media (min-width: @screen-lg-min) { ... } */
