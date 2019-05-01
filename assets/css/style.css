@@ -31,11 +31,14 @@ a {
     flex-direction: row;
 }
 
+h3 {
+    font-size: 20px;
+}
 /* element that contains my name*/
 .main_header {
     background-color: #4aaaa5;
     text-align: center;  
-    font-family: 'Georgia', Times, 'Times New Roman', Times, serif; 
+    font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
 }
 /* headline 1 styles*/
 /* h1 {
@@ -115,6 +118,10 @@ body {
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
 }
 
+
+.img-width {
+    max-width: 250px;
+}
 /* Style for the Body Headline*/
 /* .body_title {
     border-bottom: solid #cccccc;
@@ -122,6 +129,7 @@ body {
     margin-bottom: 20px;
     overflow: auto;
 } */
+
 
 /* Image headline*/
 /* .jeff {
@@ -195,26 +203,30 @@ body {
 /* A container class for images that allows me to position descriptors appropriately */
 /* .image_container {
     position: relative;
-    text-align: center;
+    /* text-align: center; 
 }  */
 
 /* Style and positioning for image description */
-/* h4 {
+h4 {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    /* width: 200px;
     position: absolute;
     top: 240px;
-    padding: 20px;
-} */
+    padding: 20px; */
+}
 .overlay {
     position: absolute;
-    /* top: 0; */
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 2rem;
+    top: 340px;
+    max-width: 250px;
+    
+    /* padding: 2rem; */
 }
+.img-xs-width {
+    width:100%;
+}
+
+
 
 /* Footer styles /////////////////////////////////////////////////////// */
 
