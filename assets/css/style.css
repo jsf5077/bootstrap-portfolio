@@ -165,7 +165,7 @@ body {
 } */
 
 /*syling for the submit button*/
-/* #submit {
+#submit {
     color: #ffffff;
     background-color: #4aaaa5;
     font-size: 16px;
@@ -174,7 +174,7 @@ body {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-} */
+}
 /* portfolio gallery////////// */
 /* Overall container for the image gallery used for layout using purposes. Accomplished using flex properties */
 /* .port_contain {
@@ -199,7 +199,7 @@ body {
 }  */
 
 /* Style and positioning for image description */
-/* h3 {
+/* h4 {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 200px;
@@ -207,7 +207,14 @@ body {
     top: 240px;
     padding: 20px;
 } */
-
+.overlay {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+}
 
 /* Footer styles /////////////////////////////////////////////////////// */
 

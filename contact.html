@@ -27,9 +27,9 @@
                     </div>
                     <div class="col-xs-10 col-md-6 col-lg-4 p-0">
                         <ul class="nav navbar-nav float-sm-right">
-                            <li><a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                            <li><a class="nav-item nav-link" href="index.html">About</a></li>
                             <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
-                            <li><a class="nav-item nav-link" href="contact.html">contact</a></li>
+                            <li><a class="nav-item nav-link active current" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
                         </ul>
                     </div>
                 </div>          
@@ -44,31 +44,36 @@
         <nav class="navbar navbar-expand-sm navbar-light justify-content-center p-0">
             <div class="d-block d-sm-none col-12">
                 <ul class="nav mb-2">
-                    <li class="nav-item col-4 px-8"><a class="nav-link active current" href="index.html">About <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link" href="index.html">About</a></li>
                     <li class="nav-item col-4 px-8"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item col-4 px-8"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item col-4 px-8"><a class="nav-link active current" href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
                 </ul>
             </div>
         </nav>           
     </header>   
 <!-- main content -->
     <section>
-
-        <h2>Contact</h2>
-
-        <form> 
-            <!-- <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="firstname" placeholder="Your First Name...">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email...">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Your Message..."></textarea>
-
-            <input id="submit" type="submit" value="Submit"> -->
-
-        </form>
+        <div class="container card col-xs-12 col-sm-9">
+            <div class="row">
+                    <div class="col-12 mt-2 navbar-brand about_me">Contact</div>
+            </div>
+            <hr style="border-color: #cccccc"/>
+            <form> 
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your First Name...">
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email...">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn btn-primary mb-6 mt-4" id="submit">submit</button>
+                </div>
+            </form>
+        </div>
     </section>
     <br>
     <!-- Cheap trick to add space between content and footer without css -->
@@ -77,10 +82,11 @@
     <!-- <img src="assets/images/blu_skyline.png" class="skyline">
     <img src="assets/images/blu.png" class="blu"> -->
 <!-- footer     -->
-    <footer class="col-xs-1 text-center fixed-bottom">
-        Copyright © 2019 Jeff Froehlich  
-   </footer>
-
+    <div class="row top-buffer">
+        <footer class="col-xs-1 text-center fixed-bottom">
+            Copyright © 2019 Jeff Froehlich  
+        </footer>
+    </div>  
 </body>
 
 </html>
